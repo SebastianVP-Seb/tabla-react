@@ -1,0 +1,27 @@
+.tabla {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &_titulos {
+        color: white;
+        background-color: rgb(44, 109, 230);
+    }
+
+    &_ciudad {
+        text-align: center;
+        cursor: pointer;
+        transition: all .5s ease;
+
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+
+    &_parrafo {
+        background-color: rgb(44, 109, 230);
+        color: white;
+        padding: 2px;
+        width: auto;
+    }
+}
